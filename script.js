@@ -13,4 +13,5 @@ function removeItem() {
     if (list.children.length > 0) {
         list.removeChild(list.lastChild);
     }
+    itemCount--;
 }
